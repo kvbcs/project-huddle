@@ -10,3 +10,105 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+main {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.conv {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.048);
+
+}
+
+.conv img {
+    width: 80%;
+    object-fit: cover; /* pour que l'image prenne toute la taille sans déformation */
+    overflow: hidden; /* pour couper l'image si elle dépasse */
+}
+
+.textconv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 20px;
+}
+
+.textconv h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.textconv p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.users {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.048);
+}
+
+.users img {
+    width: 80%;
+    object-fit: cover; /* pour que l'image prenne toute la taille sans déformation */
+    overflow: hidden; /* pour couper l'image si elle dépasse */
+}
+
+.textusers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    
+}   
+
+.users h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.users p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
