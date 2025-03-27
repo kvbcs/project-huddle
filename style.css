@@ -56,7 +56,7 @@ section > p {
 
 section > button {
 	width: 300px;
-	background-color: rgb(255, 0, 162);
+	background-color: hsl(322, 100%, 66%);
 	border-radius: 25px;
 	padding: 15px 10px;
 	border: none;
@@ -113,18 +113,17 @@ main {
 }
 
 footer {
-	background-color: red;
-	height: 110vh;
+	background-color: hsl(192, 100%, 9%);
+	height: 120vh;
 	position: relative;
 }
 
 .boutonbas {
-	width: 80%;
+	width: 90%;
 	height: 150px;
 	margin: auto;
-	position: absolute;
-	top: -50px;
-	left: 10%;
+	position: relative;
+	top: -75px;
 	border-radius: 25px;
 	font-size: 8px;
 	display: flex;
@@ -132,10 +131,12 @@ footer {
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
+	background-color: white;
+	box-shadow: 1px 1px 10px;
 }
 
 .boutonbas > button {
-	background-color: rgb(232, 0, 170);
+	background-color: hsl(322, 100%, 66%);
 	color: white;
 	padding: 10px;
 	border-radius: 25px;
@@ -145,8 +146,32 @@ footer {
 
 .cadrebas {
 	padding-top: 125px;
-	height: 80%;
+	height: 70%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	color: white;
+	padding: 0 30px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.contact > img {
+	height: 18px;
+}
+
+.cadrebas > ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.cadrebas > span {
+	font-size: smaller;
+	text-align: center;
 }
